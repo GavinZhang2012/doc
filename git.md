@@ -37,4 +37,7 @@ git config --global user.name "Gavin"
 ### Second time
 1. git status
 2. git add .
+2.1 git diff
+3. git commit -m "how to create repo"
+4. git push
 
