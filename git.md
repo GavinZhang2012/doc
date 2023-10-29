@@ -30,14 +30,24 @@ git config --global user.name "Gavin"
 ### Follow below command when you first time to push code to this repo
 1. Create repo in github
 2. git init
+
+```
+git status
+optional: ignore folder
+touch .gitignore
+put node_modules/ into .gitignore
+```
 3. git add .
 4. git commit -m "learn how to use git"
 5. git branch -M main
-6. git push --set-upstream origin main
+6. git remote add origin xxxxxx
+7. git push --set-upstream origin main
+
 ### Second time
 1. git status
-2. git add .
-2.1 git diff
-3. git commit -m "how to create repo"
-4. git push
+2. (optional) git diff
+3. git add .
+4. git commit -m "how to create repo"
+5. git push
+
 
